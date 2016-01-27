@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="110dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+     <ImageView
+        android:id="@+id/listImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/ic_launcher"
+        >        
+    </ImageView>
+    <TextView 
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/listTitle"
+        android:text="Title"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:textStyle="bold"
+        android:layout_below="@id/listImage"
+        />
+    <TextView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:id="@+id/listDesc"
+        android:gravity="center_horizontal"
+        android:layout_below="@id/listTitle"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+        android:singleLine="true"
+        />
+
+</LinearLayout>
